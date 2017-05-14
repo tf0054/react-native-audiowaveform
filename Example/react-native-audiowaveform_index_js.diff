@@ -1,0 +1,11 @@
+--- ../index.js	2017-05-14 08:13:00.376791299 +0200
++++ node_modules/react-native-audiowaveform/index.js	2017-05-14 08:45:38.666885083 +0200
+@@ -120,7 +120,7 @@
+         Object.assign(nativeProps, {
+             autoPlay:this.props.autoPlay,
+             waveFormStyle:{
+-                waveColor:processColor(this.props.waveFormStyle.waveColor),
++                rightWaveColor:processColor(this.props.waveFormStyle.rightWaveColor),
+                 scrubColor:processColor(this.props.waveFormStyle.scrubColor),
+             },
+ 

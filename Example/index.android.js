@@ -13,7 +13,6 @@ import {
     View
 } from 'react-native';
 import  WaveForm  from './node_modules/react-native-audiowaveform'
-import WaveformWrapper from './WaveformWrapper'
 export default class audioWave extends Component {
 
 
@@ -40,8 +39,8 @@ export default class audioWave extends Component {
 
 
 
-                <WaveformWrapper autoPlay={false} style={styles.waveform} waveFormStyle={{waveColor:'gray',scrubColor:'white'}} source={require('./audio/wildbot.mp3')}/>
-                <WaveformWrapper autoPlay={false} style={styles.waveform} waveFormStyle={{waveColor:'gray',scrubColor:'white'}} source={require('./audio/wildbot.mp3')}/>
+                <WaveForm autoPlay={false} style={styles.waveform} waveFormStyle={{rightWaveColor:'#ffffff',scrubColor:'#ffffff'}} source={require('./audio/wildbot.mp3')}/>
+                <WaveForm autoPlay={false} style={styles.waveform} waveFormStyle={{rightWaveColor:'#ffffff',scrubColor:'#ffffff'}} source={require('./audio/wildbot.mp3')}/>
 
 
 
